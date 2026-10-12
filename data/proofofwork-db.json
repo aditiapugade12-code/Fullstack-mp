@@ -1,0 +1,532 @@
+{
+  "users": [
+    {
+      "name": "System Administrator",
+      "email": "admin@proofofwork.edu",
+      "username": "admin",
+      "password": "$2b$10$mQluZNkgo/qclq9MJG/one0PeGIaDPSMJuqF8SdQsj7LHoT/PcZF.",
+      "role": "admin",
+      "status": "active",
+      "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=admin",
+      "createdAt": "2026-10-12T04:49:20.680Z",
+      "updatedAt": "2026-10-12T04:49:20.681Z",
+      "_id": "doc_8q0865cztmv4rvsx4",
+      "id": "doc_8q0865cztmv4rvsx4"
+    },
+    {
+      "name": "Dr. Sarah Jenkins",
+      "email": "evaluator@proofofwork.edu",
+      "username": "evaluator",
+      "password": "$2b$10$UmhwuCswfsfGhyTkgtOWTun5SjrBiBXS.B9XN.IAqWAP3JII1cq7.",
+      "role": "evaluator",
+      "status": "active",
+      "staffId": "STAFF-1042",
+      "department": "Computer Science & Engineering",
+      "mustChangePassword": false,
+      "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=sarah",
+      "createdAt": "2026-10-12T04:49:20.777Z",
+      "updatedAt": "2026-10-12T04:49:20.777Z",
+      "_id": "doc_fxc6eg3limv4rvszt",
+      "id": "doc_fxc6eg3limv4rvszt"
+    },
+    {
+      "name": "Aarav Sharma",
+      "email": "student@proofofwork.edu",
+      "username": "student",
+      "password": "$2b$10$nCJmvLtnO6f0roC8doO15.eEGCpTqzx2.jDsGo.uTleKCO7.ofb6q",
+      "role": "student",
+      "status": "active",
+      "approvalStatus": "approved",
+      "college": "National Institute of Technology",
+      "department": "Computer Science",
+      "branch": "B.Tech CSE",
+      "year": "3rd Year",
+      "rollNumber": "CS2023-042",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "bio": "Aspiring Full Stack Engineer passionate about distributed systems.",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=aarav",
+      "createdAt": "2026-10-12T04:49:20.873Z",
+      "updatedAt": "2026-10-12T04:49:20.873Z",
+      "_id": "doc_1pm0ifiammv4rvt2h",
+      "id": "doc_1pm0ifiammv4rvt2h"
+    },
+    {
+      "name": "Test Candidate",
+      "email": "student_1791780560969@test.edu",
+      "username": "student_1791780560969",
+      "password": "$2b$10$NT4DG5mMyIhxUu0uVdJKDOjZDmOsMBJYNKWsx/VbglLzUMIxieOuS",
+      "role": "student",
+      "status": "active",
+      "approvalStatus": "approved",
+      "college": "State Tech",
+      "department": "IT",
+      "branch": "Computer Tech",
+      "year": "2nd Year",
+      "rollNumber": "ST-99",
+      "createdAt": "2026-10-12T04:49:21.062Z",
+      "updatedAt": "2026-10-12T04:49:21.063Z",
+      "_id": "doc_7ya81m4j1mv4rvt7q",
+      "id": "doc_7ya81m4j1mv4rvt7q"
+    },
+    {
+      "name": "Prof. Alan Turing",
+      "email": "prof_1791780561069@faculty.edu",
+      "username": "prof_1791780561069",
+      "password": "$2b$10$7PzxjAFGGjPgQ71UROAFUOmXZK06gRvZQZw9OqMBLp5cgeWT0unhW",
+      "role": "evaluator",
+      "status": "deactivated",
+      "staffId": "FAC-809",
+      "department": "Algorithms & Theoretical CS",
+      "mustChangePassword": true,
+      "createdAt": "2026-10-12T04:49:21.165Z",
+      "updatedAt": "2026-10-12T04:49:21.167Z",
+      "_id": "doc_e4f0akl1omv4rvtal",
+      "id": "doc_e4f0akl1omv4rvtal"
+    },
+    {
+      "name": "Test Candidate",
+      "email": "student_1791780575785@test.edu",
+      "username": "student_1791780575785",
+      "password": "$2b$10$hQjMID4jryEpOndgdyALBucOc1i0q91oGb83AJbFw/HhEwTPLDnHS",
+      "role": "student",
+      "status": "active",
+      "approvalStatus": "approved",
+      "college": "State Tech",
+      "department": "IT",
+      "branch": "Computer Tech",
+      "year": "2nd Year",
+      "rollNumber": "ST-99",
+      "createdAt": "2026-10-12T04:49:35.890Z",
+      "updatedAt": "2026-10-12T04:49:35.891Z",
+      "_id": "doc_85w2tuhjpmv4rw4nm",
+      "id": "doc_85w2tuhjpmv4rw4nm"
+    },
+    {
+      "name": "Prof. Alan Turing",
+      "email": "prof_1791780575892@faculty.edu",
+      "username": "prof_1791780575892",
+      "password": "$2b$10$QPm5458LfmcJvcJRDdAddeD7LQrcmbBk.klAFnNmTJxtUfwNt3SOy",
+      "role": "evaluator",
+      "status": "deactivated",
+      "staffId": "FAC-809",
+      "department": "Algorithms & Theoretical CS",
+      "mustChangePassword": true,
+      "createdAt": "2026-10-12T04:49:35.989Z",
+      "updatedAt": "2026-10-12T04:49:35.992Z",
+      "_id": "doc_6ezxcpjpymv4rw4qd",
+      "id": "doc_6ezxcpjpymv4rw4qd"
+    },
+    {
+      "name": "Test Candidate",
+      "email": "student_1791781126788@test.edu",
+      "username": "student_1791781126788",
+      "password": "$2b$10$xENB.WhFc41mODM.Ad.mUexlTbMUmBIWKYomdRX0nqYTIUUZNHiqm",
+      "role": "student",
+      "status": "active",
+      "approvalStatus": "approved",
+      "college": "State Tech",
+      "department": "IT",
+      "branch": "Computer Tech",
+      "year": "2nd Year",
+      "rollNumber": "ST-99",
+      "createdAt": "2026-10-12T04:58:46.886Z",
+      "updatedAt": "2026-10-12T04:58:46.888Z",
+      "_id": "doc_k5i6pdxspmv4s7xt3",
+      "id": "doc_k5i6pdxspmv4s7xt3"
+    },
+    {
+      "name": "Prof. Alan Turing",
+      "email": "prof_1791781126889@faculty.edu",
+      "username": "prof_1791781126889",
+      "password": "$2b$10$ncxWarNi4le797XkhkXEV.pec7C/UbsryEpp.iJjX2yOCNv5b.PqS",
+      "role": "evaluator",
+      "status": "deactivated",
+      "staffId": "FAC-809",
+      "department": "Algorithms & Theoretical CS",
+      "mustChangePassword": true,
+      "createdAt": "2026-10-12T04:58:46.982Z",
+      "updatedAt": "2026-10-12T04:58:46.985Z",
+      "_id": "doc_1ba776m6smv4s7xvr",
+      "id": "doc_1ba776m6smv4s7xvr"
+    }
+  ],
+  "challenges": [
+    {
+      "status": "published",
+      "title": "Full-Stack Rate Limiter Token Bucket Implementation",
+      "slug": "fullstack-rate-limiter-token-bucket",
+      "category": "Backend Systems",
+      "difficulty": "Intermediate",
+      "submissionType": "code",
+      "maxMarks": 100,
+      "description": "### Challenge Objective\nImplement an in-memory or Redis-backed Token Bucket rate limiter middleware in TypeScript for an Express application.\n\n### Requirements:\n1. **Token Bucket Algorithm**: Each client IP receives a bucket with capacity `maxBurst` tokens, refilling at `refillRate` tokens/second.\n2. **Atomic Consumption**: Support requests that consume 1 or more tokens atomically.\n3. **Response Headers**: Must set standard rate limit headers:\n   - `X-RateLimit-Limit`: Maximum bucket capacity.\n   - `X-RateLimit-Remaining`: Remaining tokens.\n   - `Retry-After`: Seconds to wait before retry when limit exceeded.\n4. **Error Handling**: Return HTTP 429 Too Many Requests when tokens are depleted.\n\n*Note: All code submissions are manually audited and scored by designated faculty evaluators.*",
+      "starterCode": "import { Request, Response, NextFunction } from 'express';\n\ninterface TokenBucketConfig {\n  capacity: number;\n  refillRatePerSec: number;\n}\n\nexport function createRateLimiter(config: TokenBucketConfig) {\n  const buckets = new Map<string, { tokens: number; lastRefill: number }>();\n\n  return function rateLimiterMiddleware(req: Request, res: Response, next: NextFunction) {\n    // Implement token bucket algorithm here\n    next();\n  };\n}",
+      "testCasesOrExamples": [
+        {
+          "title": "Within limit burst",
+          "input": "10 requests within 1 second against capacity 10",
+          "expectedOutput": "200 OK for all 10 with decreasing X-RateLimit-Remaining",
+          "explanation": "All requests successfully consume available tokens."
+        },
+        {
+          "title": "Exceeding burst",
+          "input": "11th request with 0 tokens remaining",
+          "expectedOutput": "429 Too Many Requests with Retry-After header",
+          "explanation": "Bucket empty; rejected until next refill tick."
+        }
+      ],
+      "rubric": [
+        {
+          "id": "crit_rl_1",
+          "criterion": "Algorithm Correctness & Logic",
+          "maxMarks": 40,
+          "description": "Accurate time-delta calculation and token replenishment formula without drift or race conditions."
+        },
+        {
+          "id": "crit_rl_2",
+          "criterion": "HTTP Specifications & Headers",
+          "maxMarks": 30,
+          "description": "Correct status codes (429) and standard rate limit headers (X-RateLimit-Remaining, Retry-After)."
+        },
+        {
+          "id": "crit_rl_3",
+          "criterion": "Code Quality & Error Handling",
+          "maxMarks": 30,
+          "description": "Clean TypeScript types, clean state cleanup for inactive IPs, robust boundary handling."
+        }
+      ],
+      "createdAt": "2026-10-12T04:49:20.873Z",
+      "updatedAt": "2026-10-12T04:49:20.873Z",
+      "_id": "doc_vjwj3sg1fmv4rvt2h",
+      "id": "doc_vjwj3sg1fmv4rvt2h"
+    },
+    {
+      "status": "published",
+      "title": "E-Commerce Analytics Complex SQL Query",
+      "slug": "ecommerce-analytics-complex-sql-query",
+      "category": "Data & SQL",
+      "difficulty": "Intermediate",
+      "submissionType": "sql",
+      "maxMarks": 100,
+      "description": "### Challenge Objective\nWrite a high-performance PostgreSQL query analyzing customer cohort retention and average order value (AOV) across product categories.\n\n### Requirements:\n1. Calculate monthly customer acquisition cohorts from 2024-01-01 to 2024-12-31.\n2. For each cohort, compute:\n   - Month 0 (initial purchase) cohort size.\n   - Month 1, Month 2, Month 3 retention percentages using window functions or conditional aggregation.\n   - Cumulative revenue generated by the cohort.\n3. Exclude cancelled or refunded orders.\n4. Output must be sorted by cohort month ascending.\n\n*Note: SQL submissions are reviewed for index friendliness, query cost, and standard SQL compliance.*",
+      "starterCode": "-- Given tables:\n-- users (id, created_at, country)\n-- orders (id, user_id, status, created_at, total_amount)\n-- order_items (id, order_id, product_id, quantity, unit_price)\n\nWITH user_first_orders AS (\n  -- Compute cohort assignment\n  SELECT user_id, DATE_TRUNC('month', MIN(created_at)) AS cohort_month\n  FROM orders\n  WHERE status = 'completed'\n  GROUP BY user_id\n)\nSELECT\n  -- Final aggregated cohort report\n  cohort_month\nFROM user_first_orders;",
+      "testCasesOrExamples": [
+        {
+          "title": "Cohort Retention Output Structure",
+          "input": "Orders dataset spanning 2024 Q1-Q4",
+          "expectedOutput": "cohort_month | initial_size | m1_retention_pct | m2_retention_pct | cumulative_revenue",
+          "explanation": "Clean cohort grid showing retention trends."
+        }
+      ],
+      "rubric": [
+        {
+          "id": "crit_sql_1",
+          "criterion": "Query Correctness & Accuracy",
+          "maxMarks": 40,
+          "description": "Accurate cohort mapping, non-duplication of customer counts, correct date truncations."
+        },
+        {
+          "id": "crit_sql_2",
+          "criterion": "Window Functions & Aggregation",
+          "maxMarks": 35,
+          "description": "Proficient use of CTEs, window functions, and filtering logic without cross-join explosion."
+        },
+        {
+          "id": "crit_sql_3",
+          "criterion": "Optimization & Style",
+          "maxMarks": 25,
+          "description": "Query readability, proper aliasing, index efficiency consideration."
+        }
+      ],
+      "createdAt": "2026-10-12T04:49:20.874Z",
+      "updatedAt": "2026-10-12T04:49:20.874Z",
+      "_id": "doc_tm460qxqimv4rvt2i",
+      "id": "doc_tm460qxqimv4rvt2i"
+    },
+    {
+      "status": "published",
+      "title": "Accessible Responsive Modal Dialog Component",
+      "slug": "accessible-responsive-modal-dialog-component",
+      "category": "Web Development",
+      "difficulty": "Beginner",
+      "submissionType": "project_link",
+      "maxMarks": 80,
+      "description": "### Challenge Objective\nBuild a fully accessible, reusable modal dialog in React adhering strictly to WAI-ARIA guidelines.\n\n### Requirements:\n1. Traps focus within modal when open (tab looping).\n2. Closes on 'Escape' key press and backdrop click.\n3. Restores focus to trigger button upon dismissal.\n4. Locks body scroll while active.\n5. ARIA attributes: `role=\"dialog\"`, `aria-modal=\"true\"`, `aria-labelledby`, `aria-describedby`.\n\nSubmit a GitHub repository URL or live preview link.",
+      "testCasesOrExamples": [
+        {
+          "title": "Keyboard navigation test",
+          "input": "Pressing Tab repeatedly inside modal",
+          "expectedOutput": "Focus stays trapped inside modal elements",
+          "explanation": "WAI-ARIA compliance check."
+        }
+      ],
+      "rubric": [
+        {
+          "id": "crit_web_1",
+          "criterion": "Accessibility (A11y) & ARIA",
+          "maxMarks": 35,
+          "description": "Focus trapping, escape dismissal, screen reader announcements."
+        },
+        {
+          "id": "crit_web_2",
+          "criterion": "Component API & React Architecture",
+          "maxMarks": 25,
+          "description": "Clean props interface, portal mounting, hook abstraction."
+        },
+        {
+          "id": "crit_web_3",
+          "criterion": "Styling & UX Polish",
+          "maxMarks": 20,
+          "description": "Fluid transitions, backdrop blur, responsive sizing on mobile screens."
+        }
+      ],
+      "createdAt": "2026-10-12T04:49:20.874Z",
+      "updatedAt": "2026-10-12T04:49:20.874Z",
+      "_id": "doc_5030g3byomv4rvt2i",
+      "id": "doc_5030g3byomv4rvt2i"
+    }
+  ],
+  "submissions": [
+    {
+      "studentId": "doc_1pm0ifiammv4rvt2h",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "student@proofofwork.edu",
+      "studentRollNumber": "CS2023-042",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "challengeTitle": "Full-Stack Rate Limiter Token Bucket Implementation",
+      "challengeCategory": "Backend Systems",
+      "submissionType": "code",
+      "content": {
+        "code": "import { Request, Response, NextFunction } from 'express';\n\ninterface TokenBucket {\n  tokens: number;\n  lastRefill: number;\n}\n\nexport function createRateLimiter(capacity: number = 60, refillPerSec: number = 1) {\n  const store = new Map<string, TokenBucket>();\n\n  return function (req: Request, res: Response, next: NextFunction) {\n    const key = req.ip || 'anonymous';\n    const now = Date.now();\n    let bucket = store.get(key);\n\n    if (!bucket) {\n      bucket = { tokens: capacity, lastRefill: now };\n      store.set(key, bucket);\n    } else {\n      const elapsedSec = (now - bucket.lastRefill) / 1000;\n      bucket.tokens = Math.min(capacity, bucket.tokens + elapsedSec * refillPerSec);\n      bucket.lastRefill = now;\n    }\n\n    if (bucket.tokens >= 1) {\n      bucket.tokens -= 1;\n      res.setHeader('X-RateLimit-Limit', capacity);\n      res.setHeader('X-RateLimit-Remaining', Math.floor(bucket.tokens));\n      return next();\n    }\n\n    const waitSec = Math.ceil((1 - bucket.tokens) / refillPerSec);\n    res.setHeader('Retry-After', waitSec);\n    return res.status(429).json({ error: 'Too Many Requests', retryAfter: waitSec });\n  };\n}",
+        "notes": "Tested with burst traffic of 100 requests. Cleanly throttles with 429 and Retry-After headers."
+      },
+      "status": "evaluated",
+      "assignedEvaluatorId": "doc_fxc6eg3limv4rvszt",
+      "assignedEvaluatorName": "Dr. Sarah Jenkins",
+      "assignedAt": "2026-10-11T04:49:20.874Z",
+      "submittedAt": "2026-10-11T00:49:20.874Z",
+      "createdAt": "2026-10-12T04:49:20.874Z",
+      "updatedAt": "2026-10-12T04:49:20.875Z",
+      "_id": "doc_ig8b0iasqmv4rvt2i",
+      "id": "doc_ig8b0iasqmv4rvt2i",
+      "evaluationId": "doc_ctob8np5vmv4rvt2i"
+    },
+    {
+      "studentId": "doc_7ya81m4j1mv4rvt7q",
+      "studentName": "Test Candidate",
+      "studentEmail": "student_1791780560969@test.edu",
+      "studentRollNumber": "ST-99",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "challengeTitle": "Full-Stack Rate Limiter Token Bucket Implementation",
+      "challengeCategory": "Backend Systems",
+      "submissionType": "code",
+      "content": {
+        "code": "console.log(\"Verified Solution\");",
+        "notes": "Implemented with proper complexity."
+      },
+      "status": "submitted",
+      "createdAt": "2026-10-12T04:49:21.064Z",
+      "updatedAt": "2026-10-12T04:49:21.064Z",
+      "_id": "doc_zn8xomz2cmv4rvt7s",
+      "id": "doc_zn8xomz2cmv4rvt7s"
+    },
+    {
+      "status": "evaluated",
+      "assignedEvaluatorId": "doc_6ezxcpjpymv4rw4qd",
+      "assignedEvaluatorName": "Prof. Alan Turing",
+      "assignedAt": "2026-10-12T04:49:35.990Z",
+      "evaluationId": "doc_h6l2umo6tmv4rw4qf",
+      "studentId": "doc_85w2tuhjpmv4rw4nm",
+      "studentName": "Test Candidate",
+      "studentEmail": "student_1791780575785@test.edu",
+      "studentRollNumber": "ST-99",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "challengeTitle": "Full-Stack Rate Limiter Token Bucket Implementation",
+      "challengeCategory": "Backend Systems",
+      "submissionType": "code",
+      "content": {
+        "code": "console.log(\"Verified Solution\");",
+        "notes": "Implemented with proper complexity."
+      },
+      "createdAt": "2026-10-12T04:49:35.892Z",
+      "updatedAt": "2026-10-12T04:49:35.991Z",
+      "_id": "doc_f907ax9ynmv4rw4no",
+      "id": "doc_f907ax9ynmv4rw4no"
+    },
+    {
+      "status": "evaluated",
+      "assignedEvaluatorId": "doc_1ba776m6smv4s7xvr",
+      "assignedEvaluatorName": "Prof. Alan Turing",
+      "assignedAt": "2026-10-12T04:58:46.984Z",
+      "evaluationId": "doc_hgys3hq9amv4s7xvs",
+      "studentId": "doc_k5i6pdxspmv4s7xt3",
+      "studentName": "Test Candidate",
+      "studentEmail": "student_1791781126788@test.edu",
+      "studentRollNumber": "ST-99",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "challengeTitle": "Full-Stack Rate Limiter Token Bucket Implementation",
+      "challengeCategory": "Backend Systems",
+      "submissionType": "code",
+      "content": {
+        "code": "console.log(\"Verified Solution\");",
+        "notes": "Implemented with proper complexity."
+      },
+      "createdAt": "2026-10-12T04:58:46.889Z",
+      "updatedAt": "2026-10-12T04:58:46.985Z",
+      "_id": "doc_xf00xamlqmv4s7xt5",
+      "id": "doc_xf00xamlqmv4s7xt5"
+    }
+  ],
+  "evaluations": [
+    {
+      "submissionId": "doc_ig8b0iasqmv4rvt2i",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "studentId": "doc_1pm0ifiammv4rvt2h",
+      "evaluatorId": "doc_fxc6eg3limv4rvszt",
+      "evaluatorName": "Dr. Sarah Jenkins",
+      "rubricScores": [
+        {
+          "criterionId": "crit_rl_1",
+          "criterionName": "Algorithm Correctness & Logic",
+          "maxMarks": 40,
+          "awardedMarks": 38,
+          "comment": "Very solid time delta logic and token replenishment."
+        },
+        {
+          "criterionId": "crit_rl_2",
+          "criterionName": "HTTP Specifications & Headers",
+          "maxMarks": 30,
+          "awardedMarks": 29,
+          "comment": "Standard headers are set properly according to RFC."
+        },
+        {
+          "criterionId": "crit_rl_3",
+          "criterionName": "Code Quality & Error Handling",
+          "maxMarks": 30,
+          "awardedMarks": 27,
+          "comment": "Clean TypeScript types. Consider periodic memory garbage collection for inactive IPs."
+        }
+      ],
+      "totalMarks": 94,
+      "maxPossibleMarks": 100,
+      "percentage": 94,
+      "status": "completed",
+      "feedback": "Outstanding implementation! Demonstrates high practical competence in middleware design and rate limiting principles.",
+      "improvementSuggestions": "Add an automated TTL eviction timer to delete stale IP entries from memory under prolonged high traffic.",
+      "evaluationHistory": [
+        {
+          "action": "Evaluation Finalized",
+          "by": "Dr. Sarah Jenkins",
+          "timestamp": "2026-10-12T04:49:20.874Z",
+          "note": "Final score awarded: 94/100 (94%)"
+        }
+      ],
+      "evaluatedAt": "2026-10-12T04:49:20.874Z",
+      "createdAt": "2026-10-12T04:49:20.874Z",
+      "updatedAt": "2026-10-12T04:49:20.875Z",
+      "_id": "doc_ctob8np5vmv4rvt2i",
+      "id": "doc_ctob8np5vmv4rvt2i"
+    },
+    {
+      "submissionId": "doc_f907ax9ynmv4rw4no",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "studentId": "doc_85w2tuhjpmv4rw4nm",
+      "evaluatorId": "doc_6ezxcpjpymv4rw4qd",
+      "evaluatorName": "Prof. Alan Turing",
+      "rubricScores": [
+        {
+          "criterionId": "crit_rl_1",
+          "criterionName": "Algorithm Correctness & Logic",
+          "maxMarks": 40,
+          "awardedMarks": 36,
+          "comment": "Meets criteria well."
+        },
+        {
+          "criterionId": "crit_rl_2",
+          "criterionName": "HTTP Specifications & Headers",
+          "maxMarks": 30,
+          "awardedMarks": 27,
+          "comment": "Meets criteria well."
+        },
+        {
+          "criterionId": "crit_rl_3",
+          "criterionName": "Code Quality & Error Handling",
+          "maxMarks": 30,
+          "awardedMarks": 27,
+          "comment": "Meets criteria well."
+        }
+      ],
+      "totalMarks": 90,
+      "maxPossibleMarks": 100,
+      "percentage": 90,
+      "status": "completed",
+      "feedback": "Excellent work! Demonstrated strong understanding of core concepts.",
+      "improvementSuggestions": "Look into async cancellation tokens for further resilience.",
+      "evaluationHistory": [
+        {
+          "action": "Evaluation Finalized",
+          "by": "Prof. Alan Turing",
+          "timestamp": "2026-10-12T04:49:35.991Z"
+        }
+      ],
+      "evaluatedAt": "2026-10-12T04:49:35.991Z",
+      "createdAt": "2026-10-12T04:49:35.991Z",
+      "updatedAt": "2026-10-12T04:49:35.991Z",
+      "_id": "doc_h6l2umo6tmv4rw4qf",
+      "id": "doc_h6l2umo6tmv4rw4qf"
+    },
+    {
+      "submissionId": "doc_xf00xamlqmv4s7xt5",
+      "challengeId": "doc_vjwj3sg1fmv4rvt2h",
+      "studentId": "doc_k5i6pdxspmv4s7xt3",
+      "evaluatorId": "doc_1ba776m6smv4s7xvr",
+      "evaluatorName": "Prof. Alan Turing",
+      "rubricScores": [
+        {
+          "criterionId": "crit_rl_1",
+          "criterionName": "Algorithm Correctness & Logic",
+          "maxMarks": 40,
+          "awardedMarks": 36,
+          "comment": "Meets criteria well."
+        },
+        {
+          "criterionId": "crit_rl_2",
+          "criterionName": "HTTP Specifications & Headers",
+          "maxMarks": 30,
+          "awardedMarks": 27,
+          "comment": "Meets criteria well."
+        },
+        {
+          "criterionId": "crit_rl_3",
+          "criterionName": "Code Quality & Error Handling",
+          "maxMarks": 30,
+          "awardedMarks": 27,
+          "comment": "Meets criteria well."
+        }
+      ],
+      "totalMarks": 90,
+      "maxPossibleMarks": 100,
+      "percentage": 90,
+      "status": "completed",
+      "feedback": "Excellent work! Demonstrated strong understanding of core concepts.",
+      "improvementSuggestions": "Look into async cancellation tokens for further resilience.",
+      "evaluationHistory": [
+        {
+          "action": "Evaluation Finalized",
+          "by": "Prof. Alan Turing",
+          "timestamp": "2026-10-12T04:58:46.984Z"
+        }
+      ],
+      "evaluatedAt": "2026-10-12T04:58:46.984Z",
+      "createdAt": "2026-10-12T04:58:46.984Z",
+      "updatedAt": "2026-10-12T04:58:46.984Z",
+      "_id": "doc_hgys3hq9amv4s7xvs",
+      "id": "doc_hgys3hq9amv4s7xvs"
+    }
+  ]
+}
